@@ -1,0 +1,26 @@
+<head>
+    <meta charset="UTF-8">
+    <title>My Origami Porfolio</title>
+    <link rel="alternate" href="/rss/posts" type="application/rss+xml" title="My Portfolio"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head> 
+
+<template name="header">
+    <div class="navbar navbar-default" role="navigation" id="top">
+        <div class="container fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed glyphicon glyphicon-align-justify" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+                </button>                
+                <a href="/" class="navbar-brand">My Origami</a>
+            </div>
+            <div class="navbar-collapse collapse" id="navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/start">Instructions</a></li>
+                    <li><a href="/blog">Blog</a></li>
+                    <li><a href="#" class="js-scrollToFooter">About</a></li>
+                    {{> loginButtons align="right"}}
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </div>
+</template>

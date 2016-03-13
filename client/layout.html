@@ -1,0 +1,12 @@
+<template name="layout">
+
+    <div class="fill">
+        {{> header }}
+        {{> yield "intro" }}
+        <div class="container">
+            {{> yield "main" }}
+        </div>
+    </div>
+    {{> footer }} 
+
+</template>

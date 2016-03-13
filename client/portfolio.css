@@ -1,0 +1,89 @@
+.fill {
+    min-height: 100%;
+    padding-bottom: 50px;
+}
+
+html, body {
+    height: 100%;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+    opacity: 1;
+    -webkit-transition: background 1.5s linear;
+    -moz-transition: background 1.5s linear;
+    -o-transition: background 1.5s linear;
+    -ms-transition: background 1.5s linear;
+    transition: background 1.5s linear;
+    background-repeat: no-repeat;
+    background-image:url('elefante_2.png');
+}
+
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;    
+}
+
+@media (min-width: 979px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
+}
+
+footer {
+    min-height: 100%;
+    background-color: inherit;
+    -webkit-filter: invert(90%);
+    filter: invert(90%);
+}
+
+footer .container{
+    padding-top: 30px;
+}
+
+.affix {
+    top: 60px;
+    width: 212px;
+}
+
+@media (min-width: 1200px) { 
+    .affix {
+        width: 262px;
+    }
+}
+
+
+#rightSidebar .active {
+  	border:0 #eee solid;
+  	border-left-width: 4px;
+}
+
+#rightSidebar .nav > li > a:focus {
+    background-color: rgb(255,255,255);
+}
+
+img {
+    padding-bottom: 10px;
+}
+
+.intro {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-color: rgba(225,200,200,0.8);
+}
+
+#introCollapse {
+    margin-top: 10px;
+    margin-bottom: -30px;
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+}
+.collapsed {
+ -webkit-transform: rotate(180deg);
+ -moz-transform: rotate(180deg);
+ -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+
+}
+
